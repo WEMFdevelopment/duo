@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="75px" height="53px" viewBox="0 0 75 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 13</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="home" transform="translate(-1480.000000, -7806.000000)" stroke="#1F1410" stroke-width="1.3">
+            <g id="Group-13" transform="translate(1480.000000, 7806.000000)">
+                <polygon id="Stroke-1" points="0.65 16.4 37.4 32.4 73.9 17.275 37.4 0.65"></polygon>
+                <path d="M17.025,23.6837 L17.025,39.7747 C17.025,39.7747 18.775,45.5247 27.775,48.2747 C27.775,48.2747 31.275,49.0247 37.4,48.8997" id="Stroke-3"></path>
+                <path d="M57.775,23.9571 L57.775,39.7751 C57.775,39.7751 56.025,45.5251 47.025,48.2751 C47.025,48.2751 43.525,49.0251 37.4,48.9001" id="Stroke-5"></path>
+                <path d="M40.8834,15.3204 C40.8834,16.2254 39.5404,16.9594 37.8834,16.9594 C36.2264,16.9594 34.8834,16.2254 34.8834,15.3204 C34.8834,14.4154 36.2264,13.6824 37.8834,13.6824 C39.5404,13.6824 40.8834,14.4154 40.8834,15.3204 Z" id="Stroke-7"></path>
+                <polyline id="Stroke-9" points="40.7408 15.649 65.8348 20.617 65.8348 44.65"></polyline>
+                <polygon id="Stroke-11" points="65.8346 44.65 61.3996 51.775 70.3996 51.775"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
