@@ -26,6 +26,7 @@
 <!-- 
     <script src="https://gig.mx/gigSystem/globalfuncions.js?site=duo-24"></script> -->
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="https://goodtools.goodhumans.mx/scripts/formgenerator.js?site=abie;successUrl=contacto-exitoso&amp;errorUrl=contacto-fallido&amp;zapier1=2370121&amp;zapier2=b79mevg&amp;mode=dev"></script>
 
     <link rel="stylesheet" href="fonts/fonts.css">
     <link href="css/normalize.css" rel="stylesheet" type="text/css">
@@ -37,6 +38,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/svg-with-js.min.css" integrity="sha512-iyaXtrpKz7FIRsICgrvVtq1vkSJT/cfLeXA0sHSQaAs0y3LdqXWlQCXTxM246mTQ/M2qpyVX3A0aRfmTt0LOCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://goodtools.goodhumans.mx/styles/gig.global.css">
     <meta name="facebook-domain-verification" content="jilq0oh7r3h0rc3rgsyqcans9ekmh4" />
 
     <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
@@ -880,7 +882,6 @@
                     </div>
                     <div class="form-group">
                         <div data-sitekey="6Lcy9U8aAAAAAOBRKJdfWRe8xks98jUsncdQVE31" class="g-recaptcha"></div>
-                        <input type="hidden" name="url">
                         <input type="hidden" name="asunto" value="Contacto">
                     </div>
 
