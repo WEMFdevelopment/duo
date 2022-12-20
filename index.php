@@ -26,7 +26,6 @@
 <!-- 
     <script src="https://gig.mx/gigSystem/globalfuncions.js?site=duo-24"></script> -->
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <script src="https://goodtools.goodhumans.mx/scripts/formgenerator.js?site=abie;successUrl=contacto-exitoso&amp;errorUrl=contacto-fallido&amp;zapier1=2370121&amp;zapier2=b79mevg&amp;mode=dev"></script>
 
     <link rel="stylesheet" href="fonts/fonts.css">
     <link href="css/normalize.css" rel="stylesheet" type="text/css">
@@ -35,10 +34,8 @@
     <link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="js/whatsapp/floating-wpp.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/svg-with-js.min.css" integrity="sha512-iyaXtrpKz7FIRsICgrvVtq1vkSJT/cfLeXA0sHSQaAs0y3LdqXWlQCXTxM246mTQ/M2qpyVX3A0aRfmTt0LOCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://goodtools.goodhumans.mx/styles/gig.global.css">
     <meta name="facebook-domain-verification" content="jilq0oh7r3h0rc3rgsyqcans9ekmh4" />
 
     <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
@@ -161,9 +158,11 @@
             <img src="images/nuevo/header_DUO24.png" data-speed="3" class="img-parallax desktop">
             <img src="images/nuevo/mobilecover.png" data-speed="3" class="img-parallax mobile">
             <div class="hero-align">
-                <span class="hero-left">a 4 min. de distrito la perla</span>
+                <span class="hero-left">a 4 min. de Plaza del Sol</span>
                 <img src="images/nuevo/todoloqueamas.png" class="cuadro-main-title">
                 <span class="hero-right">a 4 min. de expo GDL</span>
+                
+                <span class="hero-center">VENTA DE DEPARTAMENTOS 1, 2 y 3 RECÁMARAS DESDE $2.9* MDP</span>
             </div>
             <!-- <div class="div-main w-hidden-small w-hidden-tiny">
                 <h1 class="heading-left">TODO PARA</h1>
@@ -599,7 +598,7 @@
             </div>
             <div class="block-amenidad">
                 <div class="heading-amenidades">
-                    <h4 class="heading-amenidad">Salón de usos múltiples</h4>
+                    <h4 class="heading-amenidad">Salón de Juegos</h4>
                     <div class="line-amen"></div>
                 </div>
                 <div class="image-amenidades" style="background-image: url('images/nuevo/6salon-usos-multiples.jpg');"></div>
@@ -615,7 +614,7 @@
         <div class="container-amenidad">
             <div class="block-amenidad">
                 <div class="heading-amenidades">
-                    <h4 class="heading-amenidad">Alberca con asoleaderos y chapoteadero</h4>
+                    <h4 class="heading-amenidad">Kids pool</h4>
                     <div class="line-amen"></div>
                 </div>
                 <div class="image-amenidades" style="background-image: url('images/nuevo/Alberca_1.png');"></div>
@@ -623,14 +622,14 @@
 
             <div class="block-amenidad">
                 <div class="heading-amenidades">
-                    <h4 class="heading-amenidad">Alberca con 2 carriles de nado</h4>
+                    <h4 class="heading-amenidad">Alberca 2 Carriles</h4>
                     <div class="line-amen"></div>
                 </div>
                 <div class="image-amenidades" style="background-image: url('images/nuevo/picina.jpg');"></div>
             </div>
             <div class="block-amenidad">
                 <div class="heading-amenidades">
-                    <h4 class="heading-amenidad">Terraza</h4>
+                    <h4 class="heading-amenidad">Game Room Terraza</h4>
                     <div class="line-amen"></div>
                 </div>
                 <div class="image-amenidades" style="background-image: url('images/nuevo/salon-terraza.jpg');"></div>
@@ -638,7 +637,7 @@
             
             <div class="block-amenidad">
                 <div class="heading-amenidades">
-                    <h4 class="heading-amenidad">Juice Bar</h4>
+                    <h4 class="heading-amenidad">Sport Bar</h4>
                     <div class="line-amen"></div>
                 </div>
                 <div class="image-amenidades" style="background-image: url('images/nuevo/juicebar(1).jpg');"></div>
@@ -653,18 +652,20 @@
                 </div>
             </div>
 
+
             
 
             <div class="block-amenidad">
                 <div class="heading-amenidades">
-                <h4 class="heading-amenidad"> Salon de usos múltiples</h4>
+                <h4 class="heading-amenidad">Coworking</h4>
                 <div class="line-amen"></div>
                 </div>
                 <div class="image-amenidades"  style="background-image: url('images/nuevo/6salon-usos-multiples.jpg');"></div>
             </div>
+
             <div class="block-amenidad">
                 <div class="heading-amenidades">
-                    <h4 class="heading-amenidad">Salón de juegos adulto</h4>
+                    <h4 class="heading-amenidad">Salón de juegos</h4>
                     <div class="line-amen"></div>
                 </div>
                 <div class="image-amenidades" style="background-image: url('images/nuevo/(5)salon-juegos.jpg');"></div>
@@ -674,45 +675,45 @@
         <div class="container-amenidad">
             <div class="block-amenidad">
                 <div class="heading-amenidades">
-                    <h4 class="heading-amenidad">Kids corner</h4>
+                    <h4 class="heading-amenidad">Kids Corner</h4>
                     <div class="line-amen"></div>
                 </div>
                 <div class="image-amenidades" style="background-image: url('images/nuevo/Kids_Corner.jpg');"></div>
             </div>
             <div class="block-amenidad">
                 <div class="heading-amenidades">
-                    <h4 class="heading-amenidad">Gym</h4>
+                    <h4 class="heading-amenidad">GYM</h4>
                     <div class="line-amen"></div>
                 </div>
                 <div class="image-amenidades" style="background-image: url('images/gym-image.png');"></div>
             </div>
             <div class="block-amenidad">
                 <div class="heading-amenidades">
-                    <h4 class="heading-amenidad">Huerto Urbano</h4>
+                    <h4 class="heading-amenidad">Huerto Orgánico</h4>
                     <div class="line-amen"></div>
                 </div>
                 <div class="image-amenidades" style="background-image: url('images/huerto_urbano.jpg');"></div>
             </div>
             <div class="block-amenidad">
                 <div class="heading-amenidades">
-                    <h4 class="heading-amenidad">Pet park</h4>
+                    <h4 class="heading-amenidad">Lobby</h4>
                     <div class="line-amen"></div>
                 </div>
-                <div class="image-amenidades" style="background-image: url('images/torre-pet-friendly.jpg');"></div>
+                <div class="image-amenidades" style="background-image: url('images/nuevo/lobby.jpg');"></div>
             </div>
         </div>
 
         <div class="container-amenidad">
             <div class="block-amenidad">
                 <div class="heading-amenidades">
-                    <h4 class="heading-amenidad">Área de yoga</h4>
+                    <h4 class="heading-amenidad">Yoga Deck</h4>
                     <div class="line-amen"></div>
                 </div>
                 <div class="image-amenidades" style="background-image: url('images/nuevo/yoga.jpg');"></div>
             </div>
             <div class="block-amenidad">
                 <div class="heading-amenidades">
-                    <h4 class="heading-amenidad">Área de lectura</h4>
+                    <h4 class="heading-amenidad">Área de Lectura</h4>
                     <div class="line-amen"></div>
                 </div>
                 <div class="image-amenidades" style="background-image: url('images/nuevo/lectura.jpg ');"></div>
@@ -726,7 +727,7 @@
             </div>
             <div class="block-amenidad">
                 <div class="heading-amenidades">
-                    <h4 class="heading-amenidad">Fire pit</h4>
+                    <h4 class="heading-amenidad">Fire Pit</h4>
                     <div class="line-amen"></div>
                 </div>
                 <div class="image-amenidades" style="background-image: url('images/nuevo/(2)firepit.jpg');"></div>
@@ -857,7 +858,7 @@
                 <form name="email-form" data-name="Email Form" class="form" method="post" action="send-message.php" data-toggle="validator" data-disable="false">
                     <h3 class="heading-contact">Ven y conóce un espacio de libertad</h3>
                     <div class="form-group">
-                        <input type="text" class="text-field w-input" maxlength="256" name="nombre" data-name="*Nombre" placeholder="*Nombre" id="nombre" required data-error="*Su nombre es requerido.">
+                        <input type="text" class="text-field w-input" maxlength="256" name="nombre" data-name="*Nombre" placeholder="*Nombre" id="nombre" required data-error="*Su nombre es requerido." >
                         <small class="help-block with-errors" style="color: red; text-align: left;"></small>
                     </div>
                     <div class="form-group">
@@ -907,7 +908,11 @@
             </div>
         </div>
         <div class="div-block-2g-gig">
-            <p class="paragraph-derechos">Todos los derechos reservados DÚO 24 2019 © |</p><a href="#small-dialog" class="popup-with-zoom-anim link-privacidad">Aviso de Privacidad</a>
+            <p class="paragraph-derechos">Todos los derechos reservados DÚO 24 2019 ©</p>
+            <a href="#small-dialog" class="popup-with-zoom-anim link-privacidad">Aviso de Privacidad</a>
+            <p class="paragraph-derechos">
+                * El precio está sujeto a cambios sin previo aviso.
+            </p>
             <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
                 <div class="popup-scroll">
                     <h2 data-aos="fade-up" data-aos-delay="400" class="tituloh2">Aviso de Privacidad</h2>
@@ -961,23 +966,23 @@
             
             <div class="form-group required">
                 <div class="help-block with-errors"></div>
-                <input id="nombre" type="text" name="nombre" class="form-control text-field w-input" placeholder="Nombre">
+                <input id="nombre" type="text" name="nombre" class="form-control text-field w-input" placeholder="Nombre" required data-error="*Es requerido.">
             </div>
             <div class="form-group required">
                 <div class="help-block with-errors"></div>
-                <input id="apellidoP" type="text" name="apellidoP" class="form-control text-field w-input" placeholder="Apellido paterno">
+                <input id="apellidoP" type="text" name="apellidoP" class="form-control text-field w-input" placeholder="Apellido paterno" required data-error="*Es requerido.">
             </div>
             <div class="form-group required">
                 <div class="help-block with-errors"></div>
-                <input id="apellidoM" type="text" name="apellidoM" class="form-control text-field w-input"  placeholder="Apellido materno">
+                <input id="apellidoM" type="text" name="apellidoM" class="form-control text-field w-input"  placeholder="Apellido materno" required data-error="*Es requerido.">
             </div>
             <div class="form-group required">
                 <div class="help-block with-errors"></div>
-                <input id="email" type="email" name="email" class="form-control text-field w-input" placeholder="Email">
+                <input id="email" type="email" name="email" class="form-control text-field w-input" placeholder="Email" required data-error="*Es requerido.">
             </div>
             <div class="form-group required">
                 <div class="help-block with-errors"></div>
-                <input id="telefono" type="tel" name="telefono" class="form-control text-field w-input" placeholder="Teléfono">
+                <input id="telefono" type="tel" name="telefono" class="form-control text-field w-input" placeholder="Teléfono" required data-error="*Es requerido.">
             </div>
             <div class="form-group">
                 <textarea id="comentario" rows="4" name="comentario" class="form-control text-field w-input" placeholder="¿En qué podemos ayudarte?"> </textarea>
@@ -998,7 +1003,7 @@
 
 
 
-    <a href="images/promo.png" data-fancybox="images" class="inline-gallery" id="inline"></a>
+    <!-- <a href="images/promo.png" data-fancybox="images" class="inline-gallery" id="inline"></a> -->
 
     </section>
 
@@ -1066,7 +1071,8 @@
     <script src="js/updates.js" type="text/javascript"></script>
     <!-- <script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDz7ZE7zYZAs5PFtyjabB9P4KQ6YOCMpm0&callback=initMap"></script> -->
     <script async="" defer="" src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js"></script>
     <script src="js/main.js" type="text/javascript"></script>
     <script src="js/whatsapp/floating-wpp.js"></script>
 
@@ -1079,63 +1085,63 @@
         }
     </style>
     <script type="text/javascript">
-    $(document).ready(function() {
+        $(document).ready(function() {
 
-
-        
-			if($('a#inline').length){
-                $.fancybox.open( $('.inline-gallery'), {
-                        touch: false, 
-                        clickContent: 'close',
-                        buttons: [
-                                "close"
-                        ],
-                        afterShow: function() {
-                            if ($(".fancybox-content")){
-                                var pin = '<a class="pinterest home-popup" href="https://gig.mx/noviembrizate2022/index.html?desarollo=Duo 24" style="width: 100%; height: 100%; display: inline-block;" target="_blank"></a>';
-                                $(".fancybox-content").append(pin);
-                            };
-
-                            $("img.fancybox-image").click(function() {
-                                    window.open('https://gig.mx/noviembrizate2022/index.html?desarollo=Duo 24', '_blank');                       
-                            });
-                        }
-                });
-			}
 
             
-        $('.popup-with-zoom-anim').magnificPopup({
-            type: 'inline',
+                // if($('a#inline').length){
+                //     $.fancybox.open( $('.inline-gallery'), {
+                //             touch: false, 
+                //             clickContent: 'close',
+                //             buttons: [
+                //                     "close"
+                //             ],
+                //             afterShow: function() {
+                //                 if ($(".fancybox-content")){
+                //                     var pin = '<a class="pinterest home-popup" href="https://gig.mx/noviembrizate2022/index.html?desarollo=Duo 24" style="width: 100%; height: 100%; display: inline-block;" target="_blank"></a>';
+                //                     $(".fancybox-content").append(pin);
+                //                 };
 
-            fixedContentPos: false,
-            fixedBgPos: true,
+                //                 $("img.fancybox-image").click(function() {
+                //                         window.open('https://gig.mx/noviembrizate2022/index.html?desarollo=Duo 24', '_blank');                       
+                //                 });
+                //             }
+                //     });
+                // }
 
-            overflowY: 'auto',
+                
+            $('.popup-with-zoom-anim').magnificPopup({
+                type: 'inline',
 
-            closeBtnInside: true,
-            preloader: false,
+                fixedContentPos: false,
+                fixedBgPos: true,
 
-            midClick: true,
-            removalDelay: 300,
-            mainClass: 'my-mfp-zoom-in'
+                overflowY: 'auto',
+
+                closeBtnInside: true,
+                preloader: false,
+
+                midClick: true,
+                removalDelay: 300,
+                mainClass: 'my-mfp-zoom-in'
+            });
+
+            $('.popup-with-move-anim').magnificPopup({
+                type: 'inline',
+
+                fixedContentPos: false,
+                fixedBgPos: true,
+
+                overflowY: 'auto',
+
+                closeBtnInside: true,
+                preloader: false,
+
+                midClick: true,
+                removalDelay: 300,
+                mainClass: 'my-mfp-slide-bottom'
+            });
         });
-
-        $('.popup-with-move-anim').magnificPopup({
-            type: 'inline',
-
-            fixedContentPos: false,
-            fixedBgPos: true,
-
-            overflowY: 'auto',
-
-            closeBtnInside: true,
-            preloader: false,
-
-            midClick: true,
-            removalDelay: 300,
-            mainClass: 'my-mfp-slide-bottom'
-        });
-    });
 
         $(function() {
 
