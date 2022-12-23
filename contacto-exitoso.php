@@ -36,7 +36,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/svg-with-js.min.css" integrity="sha512-iyaXtrpKz7FIRsICgrvVtq1vkSJT/cfLeXA0sHSQaAs0y3LdqXWlQCXTxM246mTQ/M2qpyVX3A0aRfmTt0LOCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://goodtools.goodhumans.mx/styles/gig.global.css">
     <meta name="facebook-domain-verification" content="jilq0oh7r3h0rc3rgsyqcans9ekmh4" />
 
     <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
@@ -856,7 +855,7 @@
             </div>
             <div id="footer" class="form-block w-form">
                 <div id="contacto"></div>
-                <form name="email-form" data-name="Email Form" class="form contact-form" method="post" action="send-message.php" data-toggle="validator" data-disable="false">
+                <form name="email-form" data-name="Email Form" class="form" method="post" action="send-message.php" data-toggle="validator" data-disable="false">
                     <h3 class="heading-contact">Ven y conóce un espacio de libertad</h3>
                     <div class="form-group">
                         <input type="text" class="text-field w-input" maxlength="256" name="nombre" data-name="*Nombre" placeholder="*Nombre" id="nombre" required data-error="*Su nombre es requerido." >
@@ -962,7 +961,7 @@
         <div>
             <img src="images/logo-24.png" alt="" style="max-width: 140px; display: block; margin: 20px auto;" class="image-logo">
         </div>
-        <form action="send-message.php" method="post" class="contact-form" data-toggle="validator" data-disable="false">
+        <form action="send-message.php" method="post" data-toggle="validator" data-disable="false">
             <input type="hidden" name="formulario" value="lateral">
             
             <div class="form-group required">
@@ -1085,7 +1084,6 @@
             cursor: pointer;
         }
     </style>
-    <script src="https://goodtools.goodhumans.mx/scripts/formgenerator.js?site=duo24;successUrl=contacto-exitoso&errorUrl=contacto-fallido&zapier1=2370121&zapier2=b79mevg&mode=dev&sendByInput=true"></script>
     <script type="text/javascript">
         $(document).ready(function() {
 
