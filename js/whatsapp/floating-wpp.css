@@ -1,10 +1,10 @@
 .floating-wpp {
     position: fixed;
-    bottom: 15%;
-    left: 1% !important;
+    bottom: 13%;
+    left: 1% ;
     font-size: 14px;
-    transition: bottom 0.2s;
-}
+    transition: bottom 0.2s; 
+} 
 
 .floating-wpp .floating-wpp-button {
     position: relative;
@@ -27,7 +27,7 @@
 }
 
 .floating-wpp:hover {
-    bottom: 17px;
+    bottom: 13%;
 }
 
 .floating-wpp:hover .floating-wpp-button {
@@ -56,8 +56,7 @@
     height: auto;
     bottom: 20%;
     opacity: 1;
-    position: fixed;
-    left: 1%;
+   
 }
 
 .floating-wpp .floating-wpp-popup .floating-wpp-message {
