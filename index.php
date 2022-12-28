@@ -883,11 +883,10 @@
                         <small class="help-block with-errors" style="color: red; text-align: left;"></small>
                     </div>
                     <div class="form-group">
-                        <div data-sitekey="6Lcy9U8aAAAAAOBRKJdfWRe8xks98jUsncdQVE31" class="g-recaptcha"></div>
                         <input type="hidden" name="asunto" value="Contacto">
                     </div>
 
-                    <input type="submit" value="ENVIAR" name="enviar" data-wait="enviando..." class="submit-button ">
+                    <input data-sitekey="6Lc8jbUjAAAAALu2oG6wXKke5YR2vrqhVCCJzDAo" data-callback='onSubmit' data-action='submit' type="submit" value="ENVIAR" name="enviar" data-wait="enviando..." class="submit-button g-recaptcha full-width">
                 </form>
                 <div class="success-message w-form-done">
                     <div>Gracias! Hemos recibido tus datos</div>
@@ -989,12 +988,11 @@
                 <textarea id="comentario" rows="4" name="comentario" class="form-control text-field w-input" placeholder="¿En qué podemos ayudarte?"> </textarea>
             </div>
             <div class="form-group">
-                <div data-sitekey="6Lcy9U8aAAAAAOBRKJdfWRe8xks98jUsncdQVE31" class="g-recaptcha"></div>
                 <input type="hidden" name="asunto" value="Contacto">
             </div>
 
             <div class="form-group">
-                <button type="submit" name="enviar" class="submit-button">
+                <button data-sitekey="6Lc8jbUjAAAAALu2oG6wXKke5YR2vrqhVCCJzDAo" data-callback='onSubmit' data-action='submit' type="submit" name="enviar" class="submit-button g-recaptcha full-width">
                     Enviar
                 </button>
             </div>
@@ -1188,6 +1186,46 @@
 
 
         });
+    </script>
+    <?php
+      session_start();
+	  $_SESSION['token'] = bin2hex(openssl_random_pseudo_bytes(32));
+    ?>
+    <script>
+      function waitForElm(selector) {
+      	return new Promise(resolve => {
+      		if (document.querySelector(selector)) {
+      			return resolve(document.querySelector(selector));
+      		}
+      
+      		const observer = new MutationObserver(mutations => {
+      			if (document.querySelector(selector)) {
+      				resolve(document.querySelector(selector));
+      				observer.disconnect();
+      			}
+      		});
+      
+      		observer.observe(document.body, {
+      			childList: true,
+      			subtree: true
+      		});
+      	})
+      }
+      
+      waitForElm('form.contact-form').then(element => {
+      	const form = document.querySelectorAll("form.contact-form")[0];
+      	const form2 = document.querySelectorAll("form.contact-form")[1]; 
+      	const input = document.createElement('input');
+      	input.type = 'hidden';
+      	input.name = 'token';
+      	input.value = "<?php echo $_SESSION['token'] ?>";
+      	const input2 = document.createElement('input');
+      	input2.type = 'hidden';
+      	input2.name = 'token';
+      	input2.value = "<?php echo $_SESSION['token'] ?>";
+      	form.appendChild(input);
+      	form2.appendChild(input2);
+      })
     </script>
     <!--<script type="text/javascript">
         $(document).ready(function() {

@@ -99,8 +99,7 @@ function getEmails() {
 	return $emails;
 }
 
-function sendToZapier($data){
-	$url = 'https://hooks.zapier.com/hooks/catch/2370121/ozuzcfc/';
+function sendToZapier($data, $url){
 	$ch = curl_init($url);
 	$payload = json_encode($data);
 	curl_setopt($ch, CURLOPT_POSTFIELDS, $payload);

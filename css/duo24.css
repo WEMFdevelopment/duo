@@ -1453,8 +1453,16 @@
   text-shadow: 1px 1px 5px #000000;
   font-size: 18px;
   font-weight: 600;
-
   padding: 9px;
+}
+.hero-center{
+  color: #ffffff;
+  text-shadow: 1px 1px 5px #000000;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 9px;
+  bottom: 0;
+  position: absolute;
 }
 .cuadro-main-title{
   width: 40%;

@@ -1,7 +1,7 @@
 .floating-wpp {
     position: fixed;
-    bottom: 15px;
-    left: 15px;
+    bottom: 15%;
+    left: 1% !important;
     font-size: 14px;
     transition: bottom 0.2s;
 }
@@ -54,8 +54,10 @@
     padding: 0 12px 12px 12px;
     width: 260px;
     height: auto;
-    bottom: 82px;
+    bottom: 20%;
     opacity: 1;
+    position: fixed;
+    left: 1%;
 }
 
 .floating-wpp .floating-wpp-popup .floating-wpp-message {
