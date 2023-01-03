@@ -2311,3 +2311,10 @@
     font-size:24px;
   }
 }
+
+.form-group label.error{ 
+  color: #fc5d5d;
+  text-align: end;
+  position: relative;
+  top: -45px;
+}

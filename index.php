@@ -863,11 +863,11 @@
                         <small class="help-block with-errors" style="color: red; text-align: left;"></small>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="text-field w-input" maxlength="256" name="apellidoP" data-name="*apellidoP" placeholder="*Apellido Paterno" id="apellidoP" required data-error="*Es requerido.">
+                        <input type="text" class="text-field w-input" maxlength="256" name="apellidoP" data-name="*apellidoP" placeholder="*Apellido Paterno" id="apellidoP"  data-error="*Es requerido.">
                         <small class="help-block with-errors" style="color: red; text-align: left;"></small>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="text-field w-input" maxlength="256" name="apellidoM" data-name="*apellidoM" placeholder="*Apellido Materno" id="apellidoM" required data-error="*Es requerido.">
+                        <input type="text" class="text-field w-input" maxlength="256" name="apellidoM" data-name="*apellidoM" placeholder="*Apellido Materno" id="apellidoM"  data-error="*Es requerido.">
                         <small class="help-block with-errors" style="color: red; text-align: left;"></small>
                     </div>
                     <div class="form-group">
@@ -879,7 +879,7 @@
                         <small class="help-block with-errors" style="color: red; text-align: left;"></small>
                     </div>
                     <div class="form-group">
-                        <textarea name="comentario" class="text-field" cols="30" rows="4" placeholder="*Mensaje" data-error="*Su mensaje es requerido." required></textarea>
+                        <textarea name="comentario" class="text-field" cols="30" rows="4" placeholder="*Mensaje" data-error="*Su mensaje es requerido." ></textarea>
                         <small class="help-block with-errors" style="color: red; text-align: left;"></small>
                     </div>
                     <div class="form-group">
@@ -954,7 +954,7 @@
             transition: 1s;
         }
     </style>
-    <div id="form-lateral" style="padding: 30px; background-color: rgba(0,0,0,.85); width: 300px; position: fixed; right: 0; top: 100px; z-index: 999; box-shadow: black 0px 0px 10px; transition: 1s;" class="form-close">
+    <!-- <div id="form-lateral" style="padding: 30px; background-color: rgba(0,0,0,.85); width: 300px; position: fixed; right: 0; top: 100px; z-index: 999; box-shadow: black 0px 0px 10px; transition: 1s;" class="form-close">
         <div class="btn-cerrar" style="color: #fff; display: inline-block; position: absolute;top: 0; left: -40px; cursor: pointer; background-color: rgba(0,0,0,.85); padding: 10px; box-shadow: black 0px 0px 10px; ">
             <img src="images/cerrar.png" alt="Cerrar">
         </div>
@@ -997,7 +997,7 @@
                 </button>
             </div>
         </form>
-    </div>
+    </div> -->
 
 
 
