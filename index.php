@@ -265,40 +265,21 @@
     <!--Implementación JavaScript nativo debido a que se desabilitó api de Jquery-->
     <div class="section-pilares">
         <div class="div-heading-pilares">
-            <h3 class="heading-pilares">Recorrido 360</h3>
+            <h3 class="heading-pilares">Experiencia virtual</h3>
             <div data-w-id="f0660039-47ea-9a22-dd54-d8195f099985" style="opacity:0" class="line-pilar"></div>
         </div>
     </div>
     <div class="container container-360">
-       
         <div class="div-360">
-            <a href="#showFrame" class="link-360 w-inline-block" onclick="showView360();">
-                <img src="images/icono_360.svg" alt="" class="icon-360">
-            </a>
-            <div>Ingresa al recorrido virtual</div>
+            <iframe
+                title="Duo - 360"
+                width="100%"
+                height="550"
+                src="https://inv.duo24.mx">
+            </iframe>
         </div>
     </div>
-    <div class="div-container-360" id="div-container-360">
-        <!--IFrame inhabilitado debido a que link de vista 360 es incorrecto y afecta el funcionamiento general del sitio web ;-->
-        <iframe src="https://d24.logicaexp.com/#1007" class="frame"></iframe>
-        <a href="#hideFrame" class="link-block-360 w-inline-block" onclick="hideView360();">
-            <div>X</div>
-        </a>
-    </div>
-    <script type="text/javascript">
-    var buttonNav = document.getElementsByClassName('div-container-360')[0];
-
-    function showView360() {
-        buttonNav.style.display = "block"
-        console.log('show: Frame');
-
-    }
-
-    function hideView360() {
-        buttonNav.style.display = "none"
-        console.log('Hide: Frame');
-    }
-    </script>
+   
     <!--Fin de fragmento de codigo para la sección de vista 360 -->
   
     <div id="departamentos" class="section-departamentos">
@@ -857,7 +838,7 @@
             <div id="footer" class="form-block w-form">
                 <div id="contacto"></div>
                 <form name="email-form" data-name="Email Form" class="form contact-form" method="post" action="send-message.php" data-toggle="validator" data-disable="false">
-                    <h3 class="heading-contact">Ven y conóce un espacio de libertad</h3>
+                    <h3 class="heading-contact">Ven y conoce un espacio de libertad</h3>
                     <div class="form-group">
                         <input type="text" class="text-field w-input" maxlength="256" name="nombre" data-name="*Nombre" placeholder="*Nombre" id="nombre" required data-error="*Su nombre es requerido." >
                         <small class="help-block with-errors" style="color: red; text-align: left;"></small>
